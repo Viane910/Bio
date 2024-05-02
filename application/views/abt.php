@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=<?= base_url('asset/css/bootstrap.css')?>>
-    <title>Biodata Mahasiswa</title>
+    <title>About</title>
     <style>
         * {
             box-sizing: border-box;
@@ -83,7 +83,6 @@
     </style>
 </head>
 <body>
-  <!-- Navbar -->
 <nav class="navbar">
   <div class="navdiv">
     <div class="logo"><a href="#">DOV</a> </div>
@@ -95,26 +94,6 @@
     </ul>
   </div>
 </nav>
-<!-- Biodata -->
-    <h1 align="center"> Biodata Mahasiswa</h1>
-    <form action="<?php echo base_url('biodata/tampil'); ?>" method="POST">
-    <div class="col-md-6">
-    <label for="Nama" class="form-label">Nama</label>
-    <input type="nama" class="form-control" id="nama" name="nama" required>
-  </div>
-  <div class="col-md-8">
-    <label for="Nim" class="form-label">NIM</label>
-    <input type="nim" class="form-control" id="nim" name="nim" required>
-  </div>
-  <div class="col-12">
-    <label for="Universitas" class="form-label">Nama Universitas</label>
-    <input type="text" class="form-control" id="univ" name="univ" required>
-  </div>
-
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Kirim</button>
-  </div>
-    </form>
-    </table>
+    this
 </body>
 </html>

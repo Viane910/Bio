@@ -20,4 +20,10 @@ class Biodata extends CI_Controller {
         // Tampilkan view untuk menampilkan data biodata yang telah diisi
         $this->load->view('tampilan-biodata', $data);
     }
+
+    public function about()
+    {
+        $this->load->view('abt');
+    }
+
 }
