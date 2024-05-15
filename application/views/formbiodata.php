@@ -99,12 +99,12 @@
     <h1 align="center"> Biodata Mahasiswa</h1>
     <form action="<?php echo base_url('biodata/tampil'); ?>" method="POST">
     <div class="col-md-6">
-    <label for="Nama" class="form-label">Nama</label>
-    <input type="nama" class="form-control" id="nama" name="nama" required>
+    <label for="nama" class="form-label">Nama</label>
+    <input type="text" class="form-control" id="nama" name="nama" required>
   </div>
   <div class="col-md-8">
     <label for="Nim" class="form-label">NIM</label>
-    <input type="nim" class="form-control" id="nim" name="nim" required>
+    <input type="number" class="form-control" id="nim" name="nim" required>
   </div>
   <div class="col-12">
     <label for="Universitas" class="form-label">Nama Universitas</label>
